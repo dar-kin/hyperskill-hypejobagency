@@ -1,0 +1,21 @@
+<h2>Render a Form</h2>
+<html>
+ <head></head>
+ <body>
+  <p>You have a form for using a promo code on the site of an online shop<em>:</em></p> 
+  <pre><code class="language-python">class PromoCodeForm(forms.Form):
+    user = forms.CharField()
+    code = forms.CharField()</code></pre> 
+  <p>Render this form to template as an unordered list.</p> 
+  <p>The instance of a form is passed to the template as the <code class="language-python">promo_code_form</code> variable.</p> 
+  <p></p>
+  <div class="alert alert-warning">
+   Grader generates random restrictions for minimum and maximum length, so use form methods to complete the task.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or in execution results because of missing context. Don't mind those; simply write your solution and click Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/7647">Show topic summary</a>

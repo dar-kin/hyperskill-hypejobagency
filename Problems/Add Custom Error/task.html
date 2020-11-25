@@ -1,0 +1,20 @@
+<h2>Add Custom Error</h2>
+<html>
+ <head></head>
+ <body>
+  <p>You have a form for using a promo code in an online shop<em>:</em></p> 
+  <pre><code class="language-python">class PromoCodeForm(forms.Form):
+    user = forms.CharField()
+    code = forms.CharField(min_length=16, max_length=16)</code></pre> 
+  <p>Write a function to add custom errors to the form if needed. The result should satisfy the following conditions:</p> 
+  <ul> 
+   <li>If the form is already invalid, do not add any new errors</li> 
+   <li>If the code doesn't start with the current year, add "<em>promo code is expired</em>" error to <em>code</em><strong><em> </em></strong>field</li> 
+   <li>If the code doesn't end with the word "<em>django</em>", add "<em>checksum is invalid</em>" error to <em>code </em>field</li> 
+  </ul>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or in execution results because of missing context. Don't mind those; simply write your solution and click Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/7647">Show topic summary</a>

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def add_custom_errors(promo_code_form):
+        code_data = promo_code_form.data.get('code')
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7656
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7656">JetBrains
+    Academy</a></html>
+  time: Sat, 17 Oct 2020 07:50:51 UTC
+record: -1

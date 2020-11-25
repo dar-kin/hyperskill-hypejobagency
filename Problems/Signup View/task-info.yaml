@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from django.contrib.auth.forms import UserCreationForm
+    from django.views.generic import CreateView
+
+
+    class MySignupView:
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7760
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7760">JetBrains
+    Academy</a></html>
+  time: Sat, 17 Oct 2020 08:09:17 UTC
+record: -1
